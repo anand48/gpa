@@ -1,0 +1,7 @@
+gpa.gpa_calculator:
+  path: '/registar/gpa-calculator'
+  defaults:
+    _form: '\Drupal\gpa\Form\GpaCalculator'
+    _title: 'GPA Calculator'
+  requirements:
+    _permission: 'access content'

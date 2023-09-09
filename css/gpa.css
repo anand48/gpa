@@ -1,0 +1,179 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#names-fieldset-wrapper table {
+    border-collapse: separate;
+    border-spacing: 1rem 1rem;
+    border: 1px solid #d0c9c954;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
+#names-fieldset-wrapper table thead tr th {
+    text-align: left;
+}
+
+#names-fieldset-wrapper table tbody tr td [class^="inp"] {
+    width: 100%;
+    border-radius: 6px;
+    text-align: center;
+    min-width: 12rem;
+}
+
+#names-fieldset-wrapper table tbody tr td div {
+    margin-bottom: 0;
+}
+
+#names-fieldset-wrapper table tbody tr td select {
+    background: #fff;
+    color: #0033a0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+    border: 1px solid #949393;
+    text-align: center;
+    border-radius: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#semester-gpa {
+    padding: 0.7rem;
+    width: 6rem;
+    border-radius: 6px;
+    background: ghostwhite;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#names-fieldset-wrapper table tbody tr td input[type="submit"] {
+    padding: 0.5rem;
+    min-width: 12rem;
+}
+
+#cgpa-wrapper {
+    margin-bottom: 2rem;
+}
+
+#cgpa-wrapper table {
+    border-collapse: separate;
+    border-spacing: 1rem 1.5rem;
+    border: 1px solid #d0c9c954;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
+#cgpa-wrapper table tbody input {
+    width: 12rem;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#cgpa-wrapper #cgpa-total {
+    background: ghostwhite;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#cgpa-wrapper input[type="submit"] {
+    padding: 0.5rem;
+    border-radius: 0;
+}
+
+.gpa-calculator {
+    max-width: 72rem;
+    margin: 0 auto;
+}
+
+#uk-gpa-calculator {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #d0c9c954;
+    padding-top: 0;
+    padding-bottom: 2rem;
+}
+
+#overall-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #d0c9c954;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 0;
+}
+
+#cgpa-wrapper table thead tr th {
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    #uk-gpa-calculator {
+        padding: 1rem 0rem;
+    }
+
+    #names-fieldset-wrapper table {
+        border-spacing: 0.2rem 1rem;
+    }
+
+    #cgpa-wrapper table {
+        border-spacing: 0.2rem 1rem;
+    }
+
+    .gpa-calculator {
+        margin: 1rem 1rem;
+    }
+
+    #names-fieldset-wrapper table tbody tr td [class^="inp"] {
+        width: 4rem;
+        border-radius: 6px;
+        text-align: center;
+        min-width: unset;
+    }
+
+    #names-fieldset-wrapper table tbody tr td input[type="submit"] {
+        padding: 0.3rem;
+        margin: 0;
+        width: 4rem;
+        font-size: 0.35rem;
+        min-width: unset;
+    }
+
+    #cgpa-wrapper input[type="submit"] {
+        padding: 0.3rem;
+        margin: 0;
+        width: 100%;
+        font-size: 0.6rem;
+    }
+
+    #semester-gpa {
+        padding: 0.5rem;
+        width: 3rem;
+    }
+
+    #cgpa-wrapper #cgpa-hours {
+        width: 5.3rem;
+    }
+
+    #cgpa-wrapper #cgpa-points {
+        width: 5.3rem;
+    }
+
+    #cgpa-wrapper #cgpa-total {
+        width: 5.3rem;
+    }
+
+}
